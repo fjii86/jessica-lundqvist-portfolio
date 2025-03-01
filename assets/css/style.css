@@ -31,3 +31,16 @@ img {
     height: 70%;
     width: auto;
 }
+
+
+/* Footer */
+
+#footer {
+    background-color: var(--highlight-color);
+}
+
+i {
+    font-size: 180%;
+    color: var(--primary-color);
+    padding: 1rem;
+}
