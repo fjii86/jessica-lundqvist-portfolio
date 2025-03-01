@@ -25,3 +25,9 @@ h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
+
+img {
+    max-height: 500px;
+    height: 70%;
+    width: auto;
+}
