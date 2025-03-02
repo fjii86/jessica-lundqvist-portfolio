@@ -32,6 +32,12 @@ img {
     width: auto;
 }
 
+/* Header */
+
+#header .container-fluid {
+    background-color: var(--contrast-color-primary);
+}
+
 
 /* Footer */
 
@@ -43,4 +49,8 @@ i {
     font-size: 180%;
     color: var(--primary-color);
     padding: 1rem;
+}
+
+i:hover {
+    color: var(--secondary-color);
 }
