@@ -4,7 +4,7 @@
 :root {
     --primary-font: "Quicksand", sans-serif;
     --secondary-font: "Eagle Lake", cursive;
-    --primary-color: #815542; /* dark brown */
+    --primary-color: #412b21; /* dark brown */
     --secondary-color: #8e7358; /* light brown */
     --highlight-color: #dba490; /* peach */
     --highlight-color-light: #ead8c0; /* wheat */
@@ -31,6 +31,20 @@ img {
     height: 70%;
     width: auto;
 }
+
+/* Navbar */
+
+.navbar-bg {
+    background-color: var(--highlight-color);
+}
+
+/* Logo in navbar */
+
+.navbar-brand {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
 
 /* Header */
 
