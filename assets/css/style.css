@@ -38,6 +38,14 @@ img {
     background-color: var(--contrast-color-primary);
 }
 
+/* About me section */
+
+.custom-button {
+background-color: var(--contrast-color-primary);
+color: var(--primary-color);
+}
+  
+
 
 /* Footer */
 
