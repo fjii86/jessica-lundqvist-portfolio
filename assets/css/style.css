@@ -38,6 +38,10 @@ img {
     background-color: var(--highlight-color);
 }
 
+.navbar-nav > a {
+    color: var(--primary-color);
+}
+
 /* Logo in navbar */
 
 .navbar-brand {
