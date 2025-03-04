@@ -69,6 +69,16 @@ color: var(--primary-color);
     background-color: var(--contrast-color-primary);
 }
 
+#books .card {
+    background-color: var(--highlight-color-light);
+}
+
+/* Center the book cover images and make them smaller */
+.custom-img {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
 
 /* Footer */
 
