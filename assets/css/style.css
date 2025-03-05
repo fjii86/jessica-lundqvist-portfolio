@@ -5,7 +5,6 @@
     --primary-font: "Quicksand", sans-serif;
     --secondary-font: "Eagle Lake", cursive;
     --primary-color: #412b21; /* dark brown */
-    --secondary-color: #8e7358; /* light brown */
     --highlight-color: #dba490; /* peach */
     --highlight-color-light: #ead8c0; /* wheat */
     --contrast-color-primary: #92ada4; /* blue */
@@ -32,6 +31,11 @@ img {
     width: auto;
 }
 
+.custom-button {
+    background-color: var(--contrast-color-primary);
+    color: var(--primary-color);
+    }
+
 /* Navbar */
 
 .navbar-bg {
@@ -53,15 +57,21 @@ img {
 /* Header */
 
 #header .container-fluid {
-    background-color: var(--contrast-color-primary);
+    background-color: var(--highlight-color-light);
 }
 
 /* About me section */
 
-.custom-button {
-background-color: var(--contrast-color-primary);
-color: var(--primary-color);
+#about {
+    background-color: var(--contrast-color-primary);
 }
+
+#about > .container {
+    background-color: var(--highlight-color-light);
+    border-radius: 10px;
+}
+
+
   
 /* Books section */
 
