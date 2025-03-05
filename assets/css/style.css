@@ -1,14 +1,12 @@
-
-
 /* CSS Variables */
 :root {
     --primary-font: "Quicksand", sans-serif;
     --secondary-font: "Eagle Lake", cursive;
     --primary-color: #412b21; /* dark brown */
+    --secondary-color: #8e7358; /* light brown */
     --highlight-color: #dba490; /* peach */
     --highlight-color-light: #ead8c0; /* wheat */
     --contrast-color-primary: #92ada4; /* blue */
-    --contrast-color-secondary: #ffd9a6; /* yellow */ 
 }
 
 /* Global styles */
@@ -53,7 +51,6 @@ img {
     color: var(--primary-color);
 }
 
-
 /* Header */
 
 #header .container-fluid {
@@ -70,9 +67,7 @@ img {
     background-color: var(--highlight-color-light);
     border-radius: 10px;
 }
-
-
-  
+ 
 /* Books section */
 
 #books .container-fluid {
